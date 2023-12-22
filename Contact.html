@@ -1,0 +1,141 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap demo</title>
+    <style>
+        body{
+            background-image: url("data:image/jpeg;base64,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");
+            background-size: cover;
+        }
+    </style>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+</head>
+
+<body>
+    <!--Creating Navbar-->
+    <nav class="navbar navbar-expand-lg bg-white text-dark p-3">
+        <div class="container-fluid">
+            <img src="https://e7.pngegg.com/pngimages/403/566/png-clipart-flight-travel-agent-logo-travel-website-travel-text-hand.png"
+                width="60" height="30">
+            <a class="navbar-brand" href="#">Explore It</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown"
+                aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class=" collapse navbar-collapse" id="navbarNavDropdown">
+                <ul class="navbar-nav ms-auto ">
+                    <li class="nav-item">
+                        <a class="nav-link mx-2" aria-current="page" href="/index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link mx-2" href="/About.html">About Us</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link mx-2" href="/Service.html">Services</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link mx-2" href="/Gallery.html">Gallery</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link mx-2 active" href="/Contact.html">Contact</a>
+                    </li>
+
+                </ul>
+                <ul class="navbar-nav ms-auto d-none d-lg-inline-flex">
+                    <li class="nav-item mx-2">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                            class="bi bi-instagram" viewBox="0 0 16 16">
+                            <path
+                                d="M8 0C5.829 0 5.556.01 4.703.048 3.85.088 3.269.222 2.76.42a3.917 3.917 0 0 0-1.417.923A3.927 3.927 0 0 0 .42 2.76C.222 3.268.087 3.85.048 4.7.01 5.555 0 5.827 0 8.001c0 2.172.01 2.444.048 3.297.04.852.174 1.433.372 1.942.205.526.478.972.923 1.417.444.445.89.719 1.416.923.51.198 1.09.333 1.942.372C5.555 15.99 5.827 16 8 16s2.444-.01 3.298-.048c.851-.04 1.434-.174 1.943-.372a3.916 3.916 0 0 0 1.416-.923c.445-.445.718-.891.923-1.417.197-.509.332-1.09.372-1.942C15.99 10.445 16 10.173 16 8s-.01-2.445-.048-3.299c-.04-.851-.175-1.433-.372-1.941a3.926 3.926 0 0 0-.923-1.417A3.911 3.911 0 0 0 13.24.42c-.51-.198-1.092-.333-1.943-.372C10.443.01 10.172 0 7.998 0h.003zm-.717 1.442h.718c2.136 0 2.389.007 3.232.046.78.035 1.204.166 1.486.275.373.145.64.319.92.599.28.28.453.546.598.92.11.281.24.705.275 1.485.039.843.047 1.096.047 3.231s-.008 2.389-.047 3.232c-.035.78-.166 1.203-.275 1.485a2.47 2.47 0 0 1-.599.919c-.28.28-.546.453-.92.598-.28.11-.704.24-1.485.276-.843.038-1.096.047-3.232.047s-2.39-.009-3.233-.047c-.78-.036-1.203-.166-1.485-.276a2.478 2.478 0 0 1-.92-.598 2.48 2.48 0 0 1-.6-.92c-.109-.281-.24-.705-.275-1.485-.038-.843-.046-1.096-.046-3.233 0-2.136.008-2.388.046-3.231.036-.78.166-1.204.276-1.486.145-.373.319-.64.599-.92.28-.28.546-.453.92-.598.282-.11.705-.24 1.485-.276.738-.034 1.024-.044 2.515-.045v.002zm4.988 1.328a.96.96 0 1 0 0 1.92.96.96 0 0 0 0-1.92zm-4.27 1.122a4.109 4.109 0 1 0 0 8.217 4.109 4.109 0 0 0 0-8.217zm0 1.441a2.667 2.667 0 1 1 0 5.334 2.667 2.667 0 0 1 0-5.334" />
+                        </svg>
+                    </li>
+                    <li class="nav-item mx-2">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                            class="bi bi-facebook" viewBox="0 0 16 16">
+                            <path
+                                d="M16 8.049c0-4.446-3.582-8.05-8-8.05C3.58 0-.002 3.603-.002 8.05c0 4.017 2.926 7.347 6.75 7.951v-5.625h-2.03V8.05H6.75V6.275c0-2.017 1.195-3.131 3.022-3.131.876 0 1.791.157 1.791.157v1.98h-1.009c-.993 0-1.303.621-1.303 1.258v1.51h2.218l-.354 2.326H9.25V16c3.824-.604 6.75-3.934 6.75-7.951" />
+                        </svg>
+                    </li>
+                    <li class="nav-item mx-2">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                            class="bi bi-twitter" viewBox="0 0 16 16">
+                            <path
+                                d="M5.026 15c6.038 0 9.341-5.003 9.341-9.334 0-.14 0-.282-.006-.422A6.685 6.685 0 0 0 16 3.542a6.658 6.658 0 0 1-1.889.518 3.301 3.301 0 0 0 1.447-1.817 6.533 6.533 0 0 1-2.087.793A3.286 3.286 0 0 0 7.875 6.03a9.325 9.325 0 0 1-6.767-3.429 3.289 3.289 0 0 0 1.018 4.382A3.323 3.323 0 0 1 .64 6.575v.045a3.288 3.288 0 0 0 2.632 3.218 3.203 3.203 0 0 1-.865.115 3.23 3.23 0 0 1-.614-.057 3.283 3.283 0 0 0 3.067 2.277A6.588 6.588 0 0 1 .78 13.58a6.32 6.32 0 0 1-.78-.045A9.344 9.344 0 0 0 5.026 15" />
+                        </svg>
+                    </li>
+                    <button class="btn btn-success"><a class="nav-link" href="/booknow.html">Book Now</a></button>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <form class="row g-3 my-4"><!--here by writing my-4 it will give margin of 4 to the row-->
+        <div class="col-md-6">
+          <label for="inputEmail4" class="form-label">Email</label>
+          <input type="email" class="form-control" id="inputEmail4">
+        </div>
+        <div class="col-md-6">
+          <label for="inputPassword4" class="form-label">Password</label>
+          <input type="password" class="form-control" id="inputPassword4">
+        </div>
+        <div class="col-12">
+          <label for="inputAddress" class="form-label">Address</label>
+          <input type="text" class="form-control" id="inputAddress" placeholder="1234 Main St">
+        </div>
+        <div class="col-12">
+          <label for="inputAddress2" class="form-label">Problem</label>
+          <input type="text" class="form-control" id="inputAddress2" placeholder="Describe your problem in detail">
+        </div>
+        <div class="col-md-6">
+          <label for="inputCity" class="form-label">City</label>
+          <input type="text" class="form-control" id="inputCity">
+        </div>
+        <div class="col-md-4">
+          <label for="inputState" class="form-label">State</label>
+          <select id="inputState" class="form-select">
+            <option selected>Choose...</option>
+            <option>...</option>
+          </select>
+        </div>
+        <div class="col-md-2">
+          <label for="inputZip" class="form-label">Zip</label>
+          <input type="text" class="form-control" id="inputZip">
+        </div>
+        <div class="col-12">
+          <div class="form-check">
+            <input class="form-check-input" type="checkbox" id="gridCheck">
+            <label class="form-check-label" for="gridCheck">
+              Check me out
+            </label>
+          </div>
+        </div>
+        <div class="col-12">
+          <button type="submit" class="btn btn-primary">Submit Form</button>
+        </div>
+      </form>
+
+      <div class="card">
+        <div class="card-header">
+        </div>
+        <div class="card-body text-center">
+          <h5 class="card-title">For Any Queuries Feel Free</h5>
+          <p class="card-text">To Email Us at ExploreIt@gmail1.com</p>
+          <a href="#" class="btn btn-primary">Contact Number- 123456789012</a>
+        </div>
+      </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+        integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js"
+        integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
